@@ -14,6 +14,16 @@ namespace TextRPG
         public float agiWeight;
         public float intWeight;
         public float defWeight;
-        public float sanWeight;
+
+
+        public PlayerClass(string name,float healthWeight, float strWeight, float agiWeight, float intWeight, float defWeight)
+        {
+            Name = name;
+            this.healthWeight = healthWeight;
+            this.strWeight = strWeight;
+            this.agiWeight = agiWeight;
+            this.intWeight = intWeight;
+            this.defWeight = defWeight;
+        }
     }
 }

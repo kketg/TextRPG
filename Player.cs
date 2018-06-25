@@ -22,7 +22,7 @@ namespace TextRPG
         public float DEF;
         public float SAN;
 
-        public Player(string Name, float health, float maxHealth, float Mana, float maxMana, float xp, float maxXp, int level, float STR, float AGI, float INT, float DEF, float SAN)
+        public Player(string Name, float health, float maxHealth, float Mana, float maxMana, float xp, float maxXp, int level, float STR, float AGI, float INT, float DEF)
         {
             this.Name = Name;
             this.health = health;
@@ -36,7 +36,7 @@ namespace TextRPG
             this.AGI = AGI;
             this.INT = INT;
             this.DEF = DEF;
-            this.SAN = SAN;
+            
         }
     }
 
