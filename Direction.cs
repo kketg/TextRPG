@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace TextRPG
 {
-    class Program
+    class Direction
     {
-        static void Main(string[] args)
+        public Location LeadsTo;
+        public Location LeadsFrom;
+
+        public Direction()
         {
-            Location loc = new Location();
+            LeadsTo = new Location();
         }
     }
 }
