@@ -9,7 +9,7 @@ namespace TextRPG
     class Direction
     {
         public Location LeadsTo;
-        public Location LeadsFrom;
+       
 
         public Direction()
         {
